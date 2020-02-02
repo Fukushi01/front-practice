@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang= "ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Bestie</title>
+        <link rel= "stylesheet" type= "text/css" href= "style.css">
+        <link href= "https://fonts.googleapis.com/css?family=Montserrat" rel= 'stylesheet' type= 'style.css'>
+    </head>
+
+<body>
+    <!--menu-->
+    <header class= "site-width">
+        <h1><a href= "index.html">Bestie</a></h1>
+        <nav id= "top-nav">
+            <ul>
+                <li><a href= "index.html">HOME</a></li>
+                <li><a href= "#Bestie">Bestieとは</a></li>
+                <li><a href= "#testimonial">利用者の声</a></li>
+                <li><a href= "#dev-character">開発者の声</a></li>
+                <li><a href= "contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--contact-->
+<div id= "main">
+
+    <section id= "contact" class= "site-width">
+        <h1 class= "title">CONTACT</h1>
+        <form>
+            <div class= "form-group">
+                <label>名前:任意 <span class= "help-block"></span>
+                <input type= "text" name= "name" class= "valid-text"> 
+            </label>
+            </div>
+            <div class= "form-group">
+                <label>Email:必須 <span class= "help-block"></span>
+                <input type= "email" name= "email" class= "valid-email">
+            </label>
+            </div>
+            <div class= "form-group">
+                <label>内容:必須 <span class= "help-block"></span>
+                <textarea cols= "100" rows= "10" name= "comment" class= "valid-textarea"></textarea>
+            </label>
+            </div>
+            <input type= "submit" name= "submit" value= "送信">
+        </form>
+    </section>
+
+</div>
+
+<!--footer-->
+<footer>
+    copyright. kosukeHidaka
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
